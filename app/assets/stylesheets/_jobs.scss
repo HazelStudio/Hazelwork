@@ -1,0 +1,23 @@
+// Place all the styles related to the Jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// *= require trix
+
+.notification {
+  border-radius: 0;
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.hint {
+  font-size: small;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 9px !important;
+}
